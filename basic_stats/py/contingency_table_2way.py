@@ -10,7 +10,3 @@ def get_probabilities(table):
     p21 = table[2]/r2total
     p22 = table[3]/r2total
     return[p11,p12,p21,p22]
-
-tbl = get_table(2,3,4,5)
-probs = get_probabilities(tbl)
-print(probs)
